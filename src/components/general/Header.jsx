@@ -90,13 +90,13 @@ const NavBar = styled.ul`
             right: ${({ open }) => open ? 0 : '-100%'};
             width: 100%;
             height: 100%;
-            padding-bottom: 100px;
-            background: rgba(18, 50, 63, 0.3);
+            padding-top: 100px;
+            padding-bottom: 50px;
+            background: rgba(18, 50, 63, 1);
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding-top: 80px;
             transition: all .3s ease 0s;
         li {
             margin-bottom: 20px;
